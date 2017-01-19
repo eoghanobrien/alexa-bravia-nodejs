@@ -1,0 +1,19 @@
+PowerIntent turn {power}
+PowerIntent power {power}
+
+VolumeIntent set volume to {volume}
+VolumeIntent change volume to {volume}
+VolumeIntent set sound to {volume}
+VolumeIntent change sound to {volume}
+
+MuteIntent mute
+MuteIntent unmute
+
+ApplicationIntent open {application}
+ApplicationIntent start {application}
+
+InputIntent change input to {input}
+InputIntent change input to HDMI {number}
+
+RemoteIntent hit {button}
+RemoteIntent press {button}

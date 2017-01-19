@@ -1,0 +1,40 @@
+{
+  "name": "alexa-bravia-nodejs",
+  "version": "1.0.0",
+  "description": "Alexa skill to control your Sony Bravia TV.",
+  "main": "index.js",
+  "keywords": "alexa,lambda,nodejs,sony,bravia,tv",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-zip": "^3.2.0",
+    "gulp-awslambda": "0.4.0",
+    "del": "2.2.2",
+    "run-sequence": "1.2.2",
+    "jshint": "^2.9.4",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore ./src/*",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "author": {
+    "name": "Eoghan O'Brien",
+    "url": "https://github.com/eoghanobrien"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eoghanobrien/alexa-bravia-nodejs"
+  },
+  "bugs": "https://github.com/eoghanobrien/alexa-bravia-nodejs/issues",
+  "license": "BSD-3-Clause"
+}

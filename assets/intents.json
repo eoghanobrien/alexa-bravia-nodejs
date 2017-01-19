@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "intent": "PowerIntent",
+      "slots": [
+        {
+          "name": "power",
+          "type": "POWER"
+        }
+      ]
+    },
+    {
+      "intent": "VolumeIntent",
+      "slots": [
+        {
+          "name": "volume",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "MuteIntent",
+      "slots": []
+    },
+    {
+      "intent": "ApplicationIntent",
+      "slots": [
+        {
+          "name": "application",
+          "type": "APPLICATION"
+        }
+      ]
+    },
+    {
+      "intent": "InputIntent",
+      "slots": [
+        {
+          "name": "input",
+          "type": "INPUT"
+        },
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "RemoteIntent",
+      "slots": [
+        {
+          "name": "button",
+          "type": "BUTTON"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
