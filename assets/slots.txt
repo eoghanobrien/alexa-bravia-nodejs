@@ -1,3 +1,78 @@
 POWER
 on
 off
+
+APPLICATION
+YouTube
+Netflix
+Program Guide
+Play Store
+Play Music
+Play Games
+Play Movies and TV
+DIRECTV Ready
+Screen mirroring
+Album
+Music
+Video
+Crackle
+VUDU
+PlayStation Video
+Freeform
+Sling
+Amazon Video
+Spotify
+Twitch
+WatchESPN
+AirScreen
+
+INPUT
+HDMI 1
+HDMI 2
+HDMI 3
+HDMI 4
+Video 1
+Video 2
+Cable
+Antenna
+DirectTV
+Direct TV
+Direct TV Ready
+
+BUTTON
+Input
+Sync Menu
+Display
+Home
+Exit
+Back
+Up
+Down
+Left
+Right
+OK
+Okay
+Confirm
+Enter
+Select
+Audio
+Help
+Guide
+TV
+Action Menu
+Jump
+Subtitles
+Closed Caption
+Wide
+Play
+Pause
+Stop
+Fast Forward
+Forward
+Rewind
+Previous
+Next
+Yellow
+Blue
+Red
+Green
